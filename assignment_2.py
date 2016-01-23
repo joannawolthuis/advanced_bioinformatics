@@ -75,6 +75,9 @@ data_frame = pd.DataFrame(data)
 graph = ggplot(aes(x='Mutation', y='Occurrence'), data=data_frame) + \
     geom_bar(position='dodge', stat='identity')
 
+'''tell user where the data table is'''
+print('Data tables for ' + gene_list + ' and mutation occurrence can be found in the folder with the .py file!')
+
 print graph
 
 '''append total to the table, we don't want it in the graph'''
@@ -86,8 +89,5 @@ data_frame = pd.DataFrame(data)
 
 '''save as csv'''
 data_frame.to_csv( gene_list + '_results.csv', sep=',', index=False)
-
-'''tell user where the data table is'''
-print('Data tables for ' + gene_list + ' and mutation occurrence can be found in the folder with the .py file!')
 
 
