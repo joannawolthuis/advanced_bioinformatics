@@ -10,13 +10,13 @@ from ggplot import *
 preconfig = raw_input("Use pre-configured parameters for assignment? y/n\n")
 
 if preconfig == "y":
-	case_set_id = "thca_tcga_pub_sequenced"
-	genetic_profile_id = "thca_tcga_pub_mutations"
-	gene_list = "BRAF"
+    case_set_id = "thca_tcga_pub_sequenced"
+    genetic_profile_id = "thca_tcga_pub_mutations"
+    gene_list = "BRAF"
 elif preconfig == "n":
-	case_set_id = raw_input("Please enter case set ID.\n")
-	genetic_profile_id = raw_input("Please enter genetic profile ID.\n")
-	gene_list = raw_input("Please enter gene list.\n")
+    case_set_id = raw_input("Please enter case set ID.\n")
+    genetic_profile_id = raw_input("Please enter genetic profile ID.\n")
+    gene_list = raw_input("Please enter gene list.\n")
 
 '''build query from above parameters'''
 url = 'http://www.cbioportal.org/webservice.do?cmd=getProfileData&case_set_id=' + case_set_id + '&genetic_profile_id=' + genetic_profile_id + '&gene_list=' + gene_list
@@ -28,7 +28,7 @@ with open( gene_list + '_data.txt', 'w') as f:
 
 '''save query page to txt and read into csv reader
 The formatting is with tabs between rows so I use that as delimiter'''
-in_txt = csv.reader(open('raw_data.txt', "rb"), delimiter = '\t')
+in_txt = csv.reader(open(gene_list + '_data.txt', "rb"), delimiter = '\t')
 
 '''we only need the 4th row as it has the mutation data per case
 Call that row my_row for later usage'''
@@ -62,9 +62,9 @@ data = {'Mutation':[], 'Occurrence':[]}
 list that will be processed next. NaN *is* included in total cases!'''
 for key, value in wordcount.items():
     if 'NaN' not in key:
-    	print key, value
-    	data['Mutation'].append(key)
-    	data['Occurrence'].append(value)
+        print key, value
+        data['Mutation'].append(key)
+        data['Occurrence'].append(value)
     total += value
 
 '''load data into DataFrame for converting to csv
@@ -89,5 +89,3 @@ data_frame = pd.DataFrame(data)
 
 '''save as csv'''
 data_frame.to_csv( gene_list + '_results.csv', sep=',', index=False)
-
-
