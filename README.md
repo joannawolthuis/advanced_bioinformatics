@@ -1,2 +1,2 @@
 # advanced_bioinformatics
-Entry tests for advanced bioinformatics course
+The 1 week course in April - entry questions and assignments!
