@@ -1,6 +1,5 @@
 CREATE TABLE Mutations
 (
-  Mutation_ID varchar(255),
   Chromosome int,
   Position float,
   ID varchar(255),
@@ -15,7 +14,7 @@ CREATE TABLE Mutations
 CREATE TABLE Sample_Mutations
 (
   Sample_ID varchar (255),
-  Mutation_ID varchar(255),
+  Position varchar(255),
   GT varchar(255),
   AD float,
   DP int,
