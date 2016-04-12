@@ -7,7 +7,7 @@ CREATE TABLE Mutations
   Alternate varchar(255),
   Quality float,
   Filter varchar(255),
-  Format varchar(255).
+  Format varchar(255
 );
 
 
