@@ -7,13 +7,13 @@ CREATE TABLE Mutations
   Alternate varchar(255),
   Quality float,
   Filter varchar(255),
-  Format varchar(255)
+  Format varchar(255).
 );
 
 
-CREATE TABLE Sample_Mutations
+CREATE TABLE Samples
 (
-  Sample_ID varchar (255),
+  Sample_ID varchar(255),
   Position varchar(255),
   GT varchar(255),
   AD float,
