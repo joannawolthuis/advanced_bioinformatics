@@ -1,0 +1,421 @@
+@prefix : <http://localhost:8080/openrdf-sesame/repositories/001#> .
+:StefvanDam_619270548_id_1
+  :query_id "StefvanDam_619270548_id_1" ;
+  :name "Stef van Dam" ;
+  :city "Bloemendaal" ;
+  :phone_nr "0837035908" ;
+  :bsn 619270548 ;
+  :friend "Jenna Lensen-Eelman" .
+:BrittTerry_315746981_id_2
+  :query_id "BrittTerry_315746981_id_2" ;
+  :name "Britt Terry" ;
+  :city "Echteld" ;
+  :phone_nr "+31161-519243" ;
+  :bsn 315746981 ;
+  :friend "Leon van Cuijck" .
+:FayeOudeHeer_018564276_id_3
+  :query_id "FayeOudeHeer_018564276_id_3" ;
+  :name "Faye Oude Heer" ;
+  :city "Delden" ;
+  :phone_nr "+31(0)33-4433407" ;
+  :bsn 018564276 ;
+  :friend "Carlijn van Laarhoven" .
+:LanavanSusa_543029177_id_4
+  :query_id "LanavanSusa_543029177_id_4" ;
+  :name "Lana van Susa" ;
+  :city "Daarle" ;
+  :phone_nr "(086)-5515382" ;
+  :bsn 543029177 ;
+  :friend "Rafael Lamotte" .
+:TessRehorst-RobbrechtsBruijne_710645983_id_5
+  :query_id "TessRehorst-RobbrechtsBruijne_710645983_id_5" ;
+  :name "Tess Rehorst-Robbrechts Bruijne" ;
+  :city "Delden" ;
+  :phone_nr "(086)-7534477" ;
+  :bsn 710645983 ;
+  :friend "Renske Passchiers" .
+:RileyWaltradeWalderade_159467238_id_6
+  :query_id "RileyWaltradeWalderade_159467238_id_6" ;
+  :name "Riley Waltrade Walderade" ;
+  :city "Bloemendaal" ;
+  :phone_nr "+31(0)06-4620218" ;
+  :bsn 159467238 ;
+  :friend "Sjoerd Fremie" .
+:ValentijnWolfsdr-Govarts_260871357_id_7
+  :query_id "ValentijnWolfsdr-Govarts_260871357_id_7" ;
+  :name "Valentijn Wolfsdr-Govarts" ;
+  :city "Tolbert" ;
+  :phone_nr "+31629180563" ;
+  :bsn 260871357 ;
+  :friend "Tirza Sarneel" .
+:MirtheSoos_679835209_id_8
+  :query_id "MirtheSoos_679835209_id_8" ;
+  :name "Mirthe Soos" ;
+  :city "Frederiksoord" ;
+  :phone_nr "+31(0)108335740" ;
+  :bsn 679835209 ;
+  :friend "Lisa Boddaugh" .
+:KeanoPratt_748392609_id_9
+  :query_id "KeanoPratt_748392609_id_9" ;
+  :name "Keano Pratt" ;
+  :city "Bloemendaal" ;
+  :phone_nr "(0392)957024" ;
+  :bsn 748392609 ;
+  :friend "Lisa Boddaugh" .
+:MerlePauwels_163245095_id_10
+  :query_id "MerlePauwels_163245095_id_10" ;
+  :name "Merle Pauwels" ;
+  :city "Nieuweschoot" ;
+  :phone_nr "003-6662283" ;
+  :bsn 163245095 ;
+  :friend "Boris Schotte" .
+:TygovanVenrooy_789354160_id_11
+  :query_id "TygovanVenrooy_789354160_id_11" ;
+  :name "Tygo van Venrooy" ;
+  :city "Echteld" ;
+  :phone_nr "0009-692406" ;
+  :bsn 789354160 ;
+  :friend "Stan Kallen" .
+:OwenWesterbeek_378216491_id_12
+  :query_id "OwenWesterbeek_378216491_id_12" ;
+  :name "Owen Westerbeek" ;
+  :city "Tolbert" ;
+  :phone_nr "(0661)-329520" ;
+  :bsn 378216491 ;
+  :friend "Nadia Wijland-Horrocks" .
+:TylervanKlaarwater_452689132_id_13
+  :query_id "TylervanKlaarwater_452689132_id_13" ;
+  :name "Tyler van Klaarwater" ;
+  :city "Bruchterveld" ;
+  :phone_nr "+31812964926" ;
+  :bsn 452689132 ;
+  :friend "Renske Passchiers" .
+:CarlijnEckhardt_174328904_id_14
+  :query_id "CarlijnEckhardt_174328904_id_14" ;
+  :name "Carlijn Eckhardt" ;
+  :city "Nieuweschoot" ;
+  :phone_nr "(0249)571989" ;
+  :bsn 174328904 ;
+  :friend "Senna Fortuyn" .
+:MiavanOmmeren_317298045_id_15
+  :query_id "MiavanOmmeren_317298045_id_15" ;
+  :name "Mia van Ommeren" ;
+  :city "Breukelen" ;
+  :phone_nr "+31080413947" ;
+  :bsn 317298045 ;
+  :friend "Tara Koster" .
+:MilouVerschut_162780345_id_16
+  :query_id "MilouVerschut_162780345_id_16" ;
+  :name "Milou Verschut" ;
+  :city "Nieuweschoot" ;
+  :phone_nr "(0809)758631" ;
+  :bsn 162780345 ;
+  :friend "Joep van Vlaanderen" .
+:DanadeGroot_159460724_id_17
+  :query_id "DanadeGroot_159460724_id_17" ;
+  :name "Dana de Groot" ;
+  :city "Bloemendaal" ;
+  :phone_nr "(0371)823646" ;
+  :bsn 159460724 ;
+  :friend "Mirthe Soos" .
+:LeonvanCuijck_042871931_id_18
+  :query_id "LeonvanCuijck_042871931_id_18" ;
+  :name "Leon van Cuijck" ;
+  :city "Delden" ;
+  :phone_nr "0885203855" ;
+  :bsn 042871931 ;
+  :friend "Riley Waltrade Walderade" .
+:CarlijnvanLaarhoven_863075216_id_19
+  :query_id "CarlijnvanLaarhoven_863075216_id_19" ;
+  :name "Carlijn van Laarhoven" ;
+  :city "Echteld" ;
+  :phone_nr "031-5483220" ;
+  :bsn 863075216 ;
+  :friend "Milou Verschut" .
+:BartvanDuivenvoorde_806734528_id_20
+  :query_id "BartvanDuivenvoorde_806734528_id_20" ;
+  :name "Bart van Duivenvoorde" ;
+  :city "Daarle" ;
+  :phone_nr "+31(0)37-0139000" ;
+  :bsn 806734528 ;
+  :friend "Nova Heymans" .
+:NovaUnruochHunerik_173956245_id_21
+  :query_id "NovaUnruochHunerik_173956245_id_21" ;
+  :name "Nova Unruoch Hunerik" ;
+  :city "Frederiksoord" ;
+  :phone_nr "058-9859772" ;
+  :bsn 173956245 ;
+  :friend "Lana van Susa" .
+:SjoerdFremie_427183960_id_22
+  :query_id "SjoerdFremie_427183960_id_22" ;
+  :name "Sjoerd Fremie" ;
+  :city "Frederiksoord" ;
+  :phone_nr "+31(0)577921435" ;
+  :bsn 427183960 ;
+  :friend "Esila Vial" .
+:AmyvandeLeemput_417806395_id_23
+  :query_id "AmyvandeLeemput_417806395_id_23" ;
+  :name "Amy van de Leemput" ;
+  :city "Rozendaal" ;
+  :phone_nr "0985712158" ;
+  :bsn 417806395 ;
+  :friend "Esila Vial" .
+:NadiaWijland-Horrocks_098374254_id_24
+  :query_id "NadiaWijland-Horrocks_098374254_id_24" ;
+  :name "Nadia Wijland-Horrocks" ;
+  :city "Tolbert" ;
+  :phone_nr "+31(0)274010801" ;
+  :bsn 098374254 ;
+  :friend "Britt de Lange-van den Brink" .
+:StanKallen_039162540_id_25
+  :query_id "StanKallen_039162540_id_25" ;
+  :name "Stan Kallen" ;
+  :city "Tolbert" ;
+  :phone_nr "042-9475967" ;
+  :bsn 039162540 ;
+  :friend "Riley Waltrade Walderade" .
+:BrittdeLange-vandenBrink_814579309_id_26
+  :query_id "BrittdeLange-vandenBrink_814579309_id_26" ;
+  :name "Britt de Lange-van den Brink" ;
+  :city "Frederiksoord" ;
+  :phone_nr "+3167-3167011" ;
+  :bsn 814579309 ;
+  :friend "Oscar Bave" .
+:HendrikHuel_189402763_id_27
+  :query_id "HendrikHuel_189402763_id_27" ;
+  :name "Hendrik Huel" ;
+  :city "Bloemendaal" ;
+  :phone_nr "(079)-3495967" ;
+  :bsn 189402763 ;
+  :friend "Ise Risma" .
+:JornKort_597802348_id_28
+  :query_id "JornKort_597802348_id_28" ;
+  :name "Jorn Kort" ;
+  :city "Echteld" ;
+  :phone_nr "+31(0)28-0188121" ;
+  :bsn 597802348 ;
+  :friend "Merle Pauwels" .
+:VeravanVermandois_418536090_id_29
+  :query_id "VeravanVermandois_418536090_id_29" ;
+  :name "Vera van Vermandois" ;
+  :city "Rozendaal" ;
+  :phone_nr "+31(0)643-079468" ;
+  :bsn 418536090 ;
+  :friend "Tyler van Klaarwater" .
+:LisaBoddaugh_019263582_id_30
+  :query_id "LisaBoddaugh_019263582_id_30" ;
+  :name "Lisa Boddaugh" ;
+  :city "Bloemendaal" ;
+  :phone_nr "0261-957073" ;
+  :bsn 019263582 ;
+  :friend "Justin Arts" .
+:MariaMeyer_359102864_id_31
+  :query_id "MariaMeyer_359102864_id_31" ;
+  :name "Maria Meyer" ;
+  :city "Breukelen" ;
+  :phone_nr "(058)6773981" ;
+  :bsn 359102864 ;
+  :friend "Lana van Susa" .
+:TirzaSarneel_327158049_id_32
+  :query_id "TirzaSarneel_327158049_id_32" ;
+  :name "Tirza Sarneel" ;
+  :city "Nieuweschoot" ;
+  :phone_nr "+31712-959115" ;
+  :bsn 327158049 ;
+  :friend "Carlijn van Laarhoven" .
+:RafaelLamotte_023579481_id_33
+  :query_id "RafaelLamotte_023579481_id_33" ;
+  :name "Rafael Lamotte" ;
+  :city "Rozendaal" ;
+  :phone_nr "+31(0)77-9019858" ;
+  :bsn 023579481 ;
+  :friend "Owen Westerbeek" .
+:JaylinnvanRooij_594702136_id_34
+  :query_id "JaylinnvanRooij_594702136_id_34" ;
+  :name "Jaylinn van Rooij" ;
+  :city "Bruchterveld" ;
+  :phone_nr "0661954298" ;
+  :bsn 594702136 ;
+  :friend "Rafael Lamotte" .
+:JoepvanVlaanderen_259463188_id_35
+  :query_id "JoepvanVlaanderen_259463188_id_35" ;
+  :name "Joep van Vlaanderen" ;
+  :city "Daarle" ;
+  :phone_nr "+31(0)700-509379" ;
+  :bsn 259463188 ;
+  :friend "Floris van de Veen" .
+:BorisSchotte_291743560_id_36
+  :query_id "BorisSchotte_291743560_id_36" ;
+  :name "Boris Schotte" ;
+  :city "Bloemendaal" ;
+  :phone_nr "(0708)673076" ;
+  :bsn 291743560 ;
+  :friend "Veerle Rietveld-Roosenboom" .
+:IseRisma_645039871_id_37
+  :query_id "IseRisma_645039871_id_37" ;
+  :name "Ise Risma" ;
+  :city "Bloemendaal" ;
+  :phone_nr "(058)6331921" ;
+  :bsn 645039871 ;
+  :friend "Tyler van Klaarwater" .
+:RenskePasschiers_269087357_id_38
+  :query_id "RenskePasschiers_269087357_id_38" ;
+  :name "Renske Passchiers" ;
+  :city "Breukelen" ;
+  :phone_nr "(045)-2314817" ;
+  :bsn 269087357 ;
+  :friend "Mees van Liendert-Le Grand" .
+:MelissavanMispelen_927516834_id_39
+  :query_id "MelissavanMispelen_927516834_id_39" ;
+  :name "Melissa van Mispelen" ;
+  :city "Breukelen" ;
+  :phone_nr "(0985)752672" ;
+  :bsn 927516834 ;
+  :friend "Britt de Lange-van den Brink" .
+:MatthijsHoekstra_962340510_id_40
+  :query_id "MatthijsHoekstra_962340510_id_40" ;
+  :name "Matthijs Hoekstra" ;
+  :city "Daarle" ;
+  :phone_nr "+31(0)42-6110479" ;
+  :bsn 962340510 ;
+  :friend "Jaylinn van Rooij" .
+:JordyGruijl_203947587_id_41
+  :query_id "JordyGruijl_203947587_id_41" ;
+  :name "Jordy Gruijl" ;
+  :city "Bloemendaal" ;
+  :phone_nr "+31(0)779640609" ;
+  :bsn 203947587 ;
+  :friend "Oscar Bave" .
+:MeesvanLiendert-LeGrand_176302451_id_42
+  :query_id "MeesvanLiendert-LeGrand_176302451_id_42" ;
+  :name "Mees van Liendert-Le Grand" ;
+  :city "Tolbert" ;
+  :phone_nr "(0112)460206" ;
+  :bsn 176302451 ;
+  :friend "Carlijn van Laarhoven" .
+:GijsWolzak_251439768_id_43
+  :query_id "GijsWolzak_251439768_id_43" ;
+  :name "Gijs Wolzak" ;
+  :city "Daarle" ;
+  :phone_nr "(0571)-908667" ;
+  :bsn 251439768 ;
+  :friend "Carlijn van Laarhoven" .
+:SofieKoeman_615809327_id_44
+  :query_id "SofieKoeman_615809327_id_44" ;
+  :name "Sofie Koeman" ;
+  :city "Rozendaal" ;
+  :phone_nr "+31770-813239" ;
+  :bsn 615809327 ;
+  :friend "Jenna Lensen-Eelman" .
+:NovaHeymans_153698202_id_45
+  :query_id "NovaHeymans_153698202_id_45" ;
+  :name "Nova Heymans" ;
+  :city "Daarle" ;
+  :phone_nr "+31784692441" ;
+  :bsn 153698202 ;
+  :friend "Riley Waltrade Walderade" .
+:LucdeGraaf_615842707_id_46
+  :query_id "LucdeGraaf_615842707_id_46" ;
+  :name "Luc de Graaf" ;
+  :city "Delden" ;
+  :phone_nr "(089)4910106" ;
+  :bsn 615842707 ;
+  :friend "Rafael Lamotte" .
+:VeerleRietveld-Roosenboom_785160425_id_47
+  :query_id "VeerleRietveld-Roosenboom_785160425_id_47" ;
+  :name "Veerle Rietveld-Roosenboom" ;
+  :city "Echteld" ;
+  :phone_nr "(0454)-733249" ;
+  :bsn 785160425 ;
+  :friend "Amy van de Leemput" .
+:OscarBave_720568432_id_48
+  :query_id "OscarBave_720568432_id_48" ;
+  :name "Oscar Bave" ;
+  :city "Breukelen" ;
+  :phone_nr "+31366245917" ;
+  :bsn 720568432 ;
+  :friend "Sjoerd Fremie" .
+:JennaLensen-Eelman_027954183_id_49
+  :query_id "JennaLensen-Eelman_027954183_id_49" ;
+  :name "Jenna Lensen-Eelman" ;
+  :city "Frederiksoord" ;
+  :phone_nr "040-5145944" ;
+  :bsn 027954183 ;
+  :friend "Luc de Graaf" .
+:SennaFortuyn_529830140_id_50
+  :query_id "SennaFortuyn_529830140_id_50" ;
+  :name "Senna Fortuyn" ;
+  :city "Tolbert" ;
+  :phone_nr "001-3768686" ;
+  :bsn 529830140 ;
+  :friend "Ise Risma" .
+:JustinArts_059761386_id_51
+  :query_id "JustinArts_059761386_id_51" ;
+  :name "Justin Arts" ;
+  :city "Tolbert" ;
+  :phone_nr "(001)3233131" ;
+  :bsn 059761386 ;
+  :friend "Amy van de Leemput" .
+:TaraKoster_715308944_id_52
+  :query_id "TaraKoster_715308944_id_52" ;
+  :name "Tara Koster" ;
+  :city "Tolbert" ;
+  :phone_nr "(058)4760658" ;
+  :bsn 715308944 ;
+  :friend "Senna Fortuyn" .
+:EsilaVial_014867291_id_53
+  :query_id "EsilaVial_014867291_id_53" ;
+  :name "Esila Vial" ;
+  :city "Frederiksoord" ;
+  :phone_nr "0590165633" ;
+  :bsn 014867291 ;
+  :friend "Tygo van Venrooy" .
+:JacobvanKlaarwater_410396576_id_54
+  :query_id "JacobvanKlaarwater_410396576_id_54" ;
+  :name "Jacob van Klaarwater" ;
+  :city "Bruchterveld" ;
+  :phone_nr "0047-535971" ;
+  :bsn 410396576 ;
+  :friend "Nadia Wijland-Horrocks" .
+:FlorisvandeVeen_834517929_id_55
+  :query_id "FlorisvandeVeen_834517929_id_55" ;
+  :name "Floris van de Veen" ;
+  :city "Rozendaal" ;
+  :phone_nr "+31443544430" ;
+  :bsn 834517929 ;
+  :friend "Jorn Kort" .
+:SimonvanMare_695084720_id_56
+  :query_id "SimonvanMare_695084720_id_56" ;
+  :name "Simon van Mare" ;
+  :city "Echteld" ;
+  :phone_nr "0420260160" ;
+  :bsn 695084720 ;
+  :friend "Boris Schotte" .
+:GerritvanderMaath_584623070_id_57
+  :query_id "GerritvanderMaath_584623070_id_57" ;
+  :name "Gerrit van der Maath" ;
+  :city "Echteld" ;
+  :phone_nr "0053811737" ;
+  :bsn 584623070 ;
+  :friend "Bart van Duivenvoorde" .
+:AaliyahvanVermandois_453819060_id_58
+  :query_id "AaliyahvanVermandois_453819060_id_58" ;
+  :name "Aaliyah van Vermandois" ;
+  :city "Nieuweschoot" ;
+  :phone_nr "+31(0)75-8450009" ;
+  :bsn 453819060 ;
+  :friend "Carlijn van Laarhoven" .
+:FinnvanMaaren_618057420_id_59
+  :query_id "FinnvanMaaren_618057420_id_59" ;
+  :name "Finn van Maaren" ;
+  :city "Nieuweschoot" ;
+  :phone_nr "(0851)199096" ;
+  :bsn 618057420 ;
+  :friend "Justin Arts" .
+:HelenaMansvelt_851697203_id_60
+  :query_id "HelenaMansvelt_851697203_id_60" ;
+  :name "Helena Mansvelt" ;
+  :city "Frederiksoord" ;
+  :phone_nr "+31491484330" ;
+  :bsn 851697203 ;
+  :friend "Mia van Ommeren" .
