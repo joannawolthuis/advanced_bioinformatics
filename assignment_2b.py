@@ -53,7 +53,7 @@ for document in cursor:
 	# search for sample 3 and 4 (python starts counting at 0) with both dps higher than 7
 	if target[2] > 7 and target[3] > 7:
 		# optional print statement for matching chromosome, position and listed samples with required dp
-		## print document["rec"]["chr"], document["rec"]["pos"], sorted(target[2:4], reverse=True)
+		## print document["rec"]["chr"], document["rec"]["pos"], target[2:4]
 		# count if they are larger than 7
 		counter += 1
 
