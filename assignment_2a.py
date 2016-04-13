@@ -58,23 +58,5 @@ for document in cursor:
 # print results
 print counter, "hits found with keyword", keyword + "!"
 
-# exercise 2
-
-client = MongoClient()
-db = client.test
-# cursor = db.restaurants.find()
-cursor = db.assignment_2.find()
-
-counter_2 = 0 
-
-for document in cursor:
-	target = document["rec"]["samples"] 
-	keyword = "ENST00000263967" 
-	if target[2] > 7 and target[3] > 7:
-		# print document["rec"]["chr"], document["rec"]["pos"], target[2:4]
-		counter_2 += 1
-
-print counter_2, "hits found with depth of sample 3 & 4 larger than 7!" 
-
 
 
