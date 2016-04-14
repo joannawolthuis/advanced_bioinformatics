@@ -1,0 +1,9 @@
+PREFIX pf: <http://localhost:8080/openrdf-sesame/repositories/001#>
+SELECT ?friend(COUNT(?friend) as ?popularity)
+{
+  ?person pf:friend    ?friend;
+          pf:name      ?name.
+}
+GROUP BY ?friend
+ORDER BY DESC(?popularity)
+LIMIT 1
